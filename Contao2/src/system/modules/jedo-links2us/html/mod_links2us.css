@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+.mod_links2us { 
+	margin: 0;
+	padding: 0;
+	padding: 5px 0 10px 0;
+	line-height:1.3em;
+	text-align: center;
+	font:normal 12px monospace;
+}
+
+.l2u-image {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	margin: 10px auto;
+}
+
+#l2u-desc,
+.l2u-info,
+.l2u-banner textarea {
+	border: none;
+	padding:5px 10px 12px;
+	border-top: 1px solid #f0f0f0; 
+	background: #fff url(fancy_bg.gif) no-repeat bottom left;
+	width:500px;
+	text-align: left;
+	color: #5364AE;
+	font:normal 12px monospace;
+}
+.l2u-banner textarea:hover {
+	border-top: 1px solid #e9eef8;
+	color: #000000;
+	background: #fff url(fancy_bg_hover.gif) no-repeat bottom left;
+}
+
+
+#l2u-desc,.l2u-info {margin: 5px auto; padding: 10px; color: #000000;}
+#l2u-title {font-size: 30px; text-align: center; border:0;}
+
+.clr {
+	clear: both;
+}
+.backlink {display: none;}
