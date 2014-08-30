@@ -1,4 +1,4 @@
-jedo Link2Us For Contao3
+jedo Link 2 Us
 =============
 
 a Backlink Bannergraphic extension for the Contao CMS.
