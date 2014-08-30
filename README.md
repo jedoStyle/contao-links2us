@@ -17,12 +17,12 @@ Features
 
 Changelog
 ------------
-V3.00
+V3.00( only Contao 3+)
 * add ZeroClipboard javascript for 'copy2clipbaord'
 * add 2 designs (light, darrk)
 * add treaser
 
-V2.00
+V2.00( only Contao 3+)
 * recoded for contao 3+
 * remove all background-graphics
 
