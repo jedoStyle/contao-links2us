@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.1">
+  <file datatype="php" original="system/modules/jedo-links2us/languages/en/tl_module.php" source-language="en">
+    <body>
+      <trans-unit id="tl_module.l2u_teaser.0">
+        <source>Links2Us teaser</source></trans-unit>
+      <trans-unit id="tl_module.l2u_teaser.1">
+        <source>The teaser can be shown in top of the list.</source></trans-unit>
+      <trans-unit id="tl_module.l2u_bdir.0">
+        <source>Banner folder</source></trans-unit>
+      <trans-unit id="tl_module.l2u_bdir.1">
+        <source>Select the directory in which your banner graphics are.</source> </trans-unit>
+      <trans-unit id="tl_module.l2u_color.0">
+        <source>Design selection</source></trans-unit>
+      <trans-unit id="tl_module.l2u_color.1">
+        <source>Select the design for the banner list.</source></trans-unit>
+      <trans-unit id="tl_module.l2u_bbyte.0">
+        <source>Show file size</source></trans-unit>
+      <trans-unit id="tl_module.l2u_bbyte.1">
+        <source>Do you want to display the file size of the banner graphic. (in Kbytes)</source></trans-unit>
+      <trans-unit id="tl_module.l2u_backlink.0">
+        <source>Display a backlink</source></trans-unit>
+      <trans-unit id="tl_module.l2u_backlink.1">
+        <source>Do you want a backlink Return to jedoStyle? (would look forward)</source></trans-unit>
+      <trans-unit id="tl_module.l2u_bsize.0">
+        <source>Show dimensions</source></trans-unit>
+      <trans-unit id="tl_module.l2u_bsize.1">
+        <source>Do you want to show the dimensions in pixels</source></trans-unit>
+      <trans-unit id="tl_module.l2u_btext.0">
+        <source>display a text link?</source></trans-unit>
+      <trans-unit id="tl_module.l2u_btext.1">
+        <source>If you also want to display a text link?</source></trans-unit>
+      <trans-unit id="tl_module.l2u_zeroclip.0">
+        <source>Copy to Clipboard</source></trans-unit>
+      <trans-unit id="tl_module.l2u_zeroclip.1">
+       <source>If you want to use "copy to clipboard" function?</source></trans-unit>
+ <trans-unit id="tl_module.folder_legend"><source>Folder settings</source></trans-unit>
+ <trans-unit id="tl_module.config_legend"><source>Bannerlist settings</source></trans-unit>
+ <trans-unit id="tl_module.treaser_legend"><source>Teaser settings</source></trans-unit>
+      </body>
+
+  </file>
+</xliff>

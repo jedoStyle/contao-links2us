@@ -1,0 +1,31 @@
+<?php $GLOBALS['TL_CSS']['Links2Us'] = 'system/modules/jedo-links2us/assets/css/jedo-links2us.css'; ?>
+
+<!--  CONTAO EXTENSION LINKS2US BY JEDO-STYLE  -->
+<div class="<?php echo $this->class.$this->color; ?> block"<?php echo $this->cssID; ?><?php if ($this->style): ?> style="<?php echo $this->style; ?>"<?php endif; ?>>
+<?php if ($this->headline): ?><<?php echo $this->hl; ?>><?php echo $this->headline; ?></<?php echo $this->hl; ?>><?php endif; ?>
+<?php if ($this->TeaserText): ?><div class="teaser"><?php echo $this->TeaserText; ?></div><?php endif; ?>
+
+<!-- Start Banner List -->
+<?php foreach ($this->LinkBanners as $banner): echo $banner; endforeach; ?>
+
+<?php if ($this->displayTextLink): include $this->getTemplate('links2us_textbanner', 'html5'); endif; ?>
+
+<?php if ($this->backLink): echo $this->backInfo; endif; ?>
+<!-- End Banner List -->
+</div>
+<!--  CONTAO EXTENSION LINKS2US BY JEDO-STYLE  -->
+
+<?php
+$GLOBALS['TL_JQUERY'][jedoZeroClip] = '<script type="text/javascript" src="system/modules/jedo-links2us/assets/js/ZeroClipboard.min.js"></script>';
+$GLOBALS['TL_JQUERY']['jedoCopyClip'] = '
+<script type="text/javascript">
+(function($) {
+	$(document).ready(function() {
+		var client = new ZeroClipboard($(".btn-clipboard"));
+
+		client.on( "ready", function( readyEvent ) {
+	  		client.on( "aftercopy", function( event ) {});
+		});
+	});
+})(jQuery);
+</script> '; ?>

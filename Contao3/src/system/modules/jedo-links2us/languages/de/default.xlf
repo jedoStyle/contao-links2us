@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.1">
+  <file datatype="php" original="system/modules/jedo-links2us/languages/en/default.php" source-language="en">
+    <body>
+      <trans-unit id="MSC.teasertext">
+        <source>Copy the code into your site and you have the link to get ready.</source> <target state="needs-translation">Die folgenden Banner ken Sie auf Ihrer eigenen Webseite einsetzen um einen Link zu Unserer zu setzen. Wir freuen uns r jeden Link.</target> </trans-unit>
+      <trans-unit id="MSC.textlink">
+        <source>Or as a text link</source>
+        <target>Oder nur als Textlink</target>
+      </trans-unit>
+      <trans-unit id="MSC.go to">
+        <source>Go to</source> <target state="needs-translation">Gehe zu</target> </trans-unit>
+      <trans-unit id="MSC.size">
+        <source>Dimension: </source>
+        <target>Abmessung: </target>
+      </trans-unit>
+      <trans-unit id="MSC.clipboard">
+        <source>Copy to Clipboaard</source>
+        <target>Quelltext kopieren</target>
+      </trans-unit>
+      <trans-unit id="MSC.light">
+        <source>light</source>
+        <target>hell</target>
+      </trans-unit>
+      <trans-unit id="MSC.dark">
+        <source>dark</source>
+        <target>dunkel</target>
+      </trans-unit>
+      <trans-unit id="MSC.0">
+        <source>No</source>
+        <target>Nein</target>
+      </trans-unit>
+      <trans-unit id="MSC.1">
+        <source>Yes</source>
+        <target>Ja</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
