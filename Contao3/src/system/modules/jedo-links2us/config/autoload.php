@@ -1,13 +1,12 @@
 <?php
-
 /**
  * Contao Open Source CMS
- *
- * Copyright (c) 2005-2014 Leo Feyer
- *
- * @package Jedo-links2us
- * @link    https://contao.org
- * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
+ * Copyright (C) 2005-2012 Leo Feyer
+ * 
+ * @copyright 	jedoStyle 2011 - 2014
+ * @author      	jedoStyle <http://jedo-style.de>
+ * @package    	jedo Links2Us
+ * @version     	3.0.0
  */
 
 

@@ -3,7 +3,7 @@
  * Contao Open Source CMS
  * Copyright (C) 2005-2012 Leo Feyer
  * 
- * @copyright 	jedoStyle 2012 - 2014
+ * @copyright 	jedoStyle 2011 - 2014
  * @author      	jedoStyle <http://jedo-style.de>
  * @package    	jedo Links2Us
  * @version     	3.0.0
