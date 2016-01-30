@@ -1,0 +1,30 @@
+{
+    "name": "jedostyle/contao-testimonials",
+    "description": "testimonial extension for Contao Open Source CMS",
+    "keywords": ["contao", "testimonials", "customers"],
+    "type": "contao-module",
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "jedoStyle",
+            "homepage": "http://jedo-style.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "contao/core": "3.5.*",
+        "contao-community-alliance/composer-plugin": "2.*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        },
+       "contao": {
+            "sources": {
+                "system/modules/jedo-testimonials": "system/modules/jedo-testimonials",
+                "files/jedo-testimonials": "files/jedo-testimonials"
+            }
+        }
+    }
+
+}
