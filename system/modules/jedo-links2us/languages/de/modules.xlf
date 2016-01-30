@@ -1,0 +1,30 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="system/modules/jedo-links2us/languages/en/modules.php" source-language="en">
+    <body>
+      <trans-unit id="FMD.jedolinks2us.0">
+        <source>Links 2 Us</source>
+        <target>Links 2 Us</target>
+      </trans-unit>
+      <trans-unit id="FMD.jedolinks2us.1">
+        <source>Provide Banner graphics for backlinks for disposal.</source>
+        <target>Banner Grafiken für Backlinks zur Verfügung stellen.</target>
+      </trans-unit>
+      <trans-unit id="FMD.jedoextensions">
+        <source>jedoStyle Addons</source>
+        <target>jedoStyle Module</target>
+      </trans-unit>
+      <trans-unit id="CTE.jedoextensions">
+        <source>jedoStyle Addons</source>
+        <target>jedoStyle Elemente</target>
+      </trans-unit>
+      <trans-unit id="CTE.jedolinks2us.0">
+        <source>Links 2 Us</source>
+        <target>Links 2 Us</target>
+      </trans-unit>
+      <trans-unit id="CTE.jedolinks2us.1">
+        <source>Provide Banner graphics for backlinks for disposal.</source>
+        <target>Banner Grafiken für Backlinks zur Verfügung stellen.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

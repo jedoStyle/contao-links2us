@@ -1,54 +1,30 @@
-<?php if (!defined('TL_ROOT')) die('You can not access this file directly!');
-
+<?php
 /**
- * TYPOlight webCMS
- * Copyright (C) 2005-2009 Leo Feyer
- *
- * This program is free software: you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation, either
- * version 2.1 of the License, or (at your option) any later version.
+ * Contao Open Source CMS
+ * Copyright (C) 2005-2012 Leo Feyer
  * 
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * Lesser General Public License for more details.
- * 
- * You should have received a copy of the GNU Lesser General Public
- * License along with this program. If not, please visit the Free
- * Software Foundation website at http://www.gnu.org/licenses/.
- *
- * PHP version 5
- * @copyright  Leo Feyer 2005-2009
- * @author     Leo Feyer 
- * @package    Memberlist 
- * @license    LGPL 
- * @filesource
+ * @copyright 	jedoStyle 2011 - 2014
+ * @author      	jedoStyle <http://jedo-style.de>
+ * @package    	jedo Links2Us
+ * @version     	3.0.0
  */
 
 
-/**
- * Front end modules
- */
-
-if (TL_MODE == 'FE')
-
+// Content Elements
+// FrontEnd Module
+if (!is_array($GLOBALS['TL_CTE']['jedoextensions']))
 {
-
-	$GLOBALS['TL_CSS'][]  = 'system/modules/jedo-links2us/html/mod_links2us.css';
-
+	array_insert($GLOBALS['TL_CTE'], 999, array('jedoextensions' => array()));
 }
-
-//$GLOBALS['FE_MOD']['user']['links2us'] = 'links2us';
-
+$GLOBALS['TL_CTE']['jedoextensions']['jedolinks2us'] = 'ContentLinksToUs';
 
 
-if (!is_array($GLOBALS['FE_MOD']['jedoaddons']))
+// FrontEnd Module
+if (!is_array($GLOBALS['FE_MOD']['jedoextensions']))
 {
-	array_insert($GLOBALS['FE_MOD'], 4, array('jedoaddons' => array()));
+	array_insert($GLOBALS['FE_MOD'], 4, array('jedoextensions' => array()));
 }
+$GLOBALS['FE_MOD']['jedoextensions']['jedolinks2us'] = 'ModuleLinksToUs';
 
-$GLOBALS['FE_MOD']['jedoaddons']['links2us'] = 'links2us';
 
 
-?>

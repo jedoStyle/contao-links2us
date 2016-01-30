@@ -1,0 +1,27 @@
+<!-- indexer::stop -->
+
+<!-- TEXTBANNER START -->
+<div id="banner-text">
+<div class="banner">
+	<?php echo $GLOBALS['TL_LANG']['MSC']['textlink']; ?>
+</div>
+<?php if ($this->CopytoClip): ?>
+<div class="zero-clipboard"><span data-clipboard-target="clipboard_textarea-text" class="btn-clipboard"><?php echo $GLOBALS['TL_LANG']['MSC']['clipboard']; ?></span></div>
+<?php endif; ?>
+<div class="l2u-example">
+<form role="form">
+	<textarea  id="clipboard_textarea-text" class="description" rows="8" cols="30">
+	<!-- START LINK -->
+
+		<a href="{{env::path}}">
+			<?php echo $GLOBALS['TL_LANG']['MSC']['go to'] ." ". $GLOBALS['TL_CONFIG']['websiteTitle']."\n"; ?>
+		</a>
+
+	<!-- END LINK -->
+	</textarea>
+</form>
+</div>
+</div>
+<!-- TEXTBANNER END -->
+
+<!-- indexer::continue -->

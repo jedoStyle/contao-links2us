@@ -10,14 +10,14 @@
  */
 
 /**
- * Add palettes to tl_module
+ * Add palettes to tl_content
  */
-$GLOBALS['TL_DCA']['tl_module']['palettes']['jedolinks2us'] = '{type_legend},name,headline,type;{treaser_legend},l2u_teaser;{folder_legend},l2u_bdir;{config_legend:hide},l2u_color,l2u_backlink,l2u_bsize,l2u_bbyte,l2u_btext,l2u_zeroClip;{protected_legend:hide},protected;{expert_legend:hide},guests,cssID,space';
+$GLOBALS['TL_DCA']['tl_content']['palettes']['jedolinks2us'] = '{type_legend},type,headline;{treaser_legend},l2u_teaser;{folder_legend},l2u_bdir;{config_legend:hide},l2u_color,l2u_backlink,l2u_bsize,l2u_bbyte,l2u_btext,l2u_zeroClip;{protected_legend:hide},protected;{expert_legend:hide},guests,cssID,space';
 
 
-$GLOBALS['TL_DCA']['tl_module']['fields']['l2u_bdir'] = array
+$GLOBALS['TL_DCA']['tl_content']['fields']['l2u_bdir'] = array
 (
-	'label'       			=> &$GLOBALS['TL_LANG']['tl_module']['l2u_bdir'],
+	'label'       			=> &$GLOBALS['TL_LANG']['tl_content']['l2u_bdir'],
 	'default'			=> 'tl_files/jedo-links2us',		
 	'exclude'                 		=> true,
 	'inputType'               		=> 'fileTree',
@@ -26,9 +26,9 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['l2u_bdir'] = array
 );
 
 
-$GLOBALS['TL_DCA']['tl_module']['fields']['l2u_teaser'] = array
+$GLOBALS['TL_DCA']['tl_content']['fields']['l2u_teaser'] = array
 (
-	'label'                   	=> &$GLOBALS['TL_LANG']['tl_module']['l2u_teaser'],
+	'label'                   	=> &$GLOBALS['TL_LANG']['tl_content']['l2u_teaser'],
 	'exclude'                 	=> true,
 	'default'		=> $GLOBALS['TL_LANG']['MSC']['teasertext'],
 	'inputType'               	=> 'textarea',
@@ -36,9 +36,9 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['l2u_teaser'] = array
 	'sql'                     	=> "text NULL"
 );
 
-$GLOBALS['TL_DCA']['tl_module']['fields']['l2u_color'] = array
+$GLOBALS['TL_DCA']['tl_content']['fields']['l2u_color'] = array
 (
-	'label'                   		=> &$GLOBALS['TL_LANG']['tl_module']['l2u_color'],
+	'label'                   		=> &$GLOBALS['TL_LANG']['tl_content']['l2u_color'],
 	'default'                 		=> 'light',
 	'exclude'                 		=> true,
 	'inputType'               		=> 'select',
@@ -48,9 +48,9 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['l2u_color'] = array
 	'sql'                     		=> "char(10) NOT NULL default ''" 
 );
 
-$GLOBALS['TL_DCA']['tl_module']['fields']['l2u_btext'] = array
+$GLOBALS['TL_DCA']['tl_content']['fields']['l2u_btext'] = array
 (
-	'label'                   		=> &$GLOBALS['TL_LANG']['tl_module']['l2u_btext'],
+	'label'                   		=> &$GLOBALS['TL_LANG']['tl_content']['l2u_btext'],
 	'default'                 		=> '1',
 	'exclude'                 		=> true,
 	'inputType'               		=> 'select',
@@ -60,9 +60,9 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['l2u_btext'] = array
 	'sql'                     		=> "int(10) unsigned NOT NULL default '0'" 
 );
 
-$GLOBALS['TL_DCA']['tl_module']['fields']['l2u_bsize'] = array
+$GLOBALS['TL_DCA']['tl_content']['fields']['l2u_bsize'] = array
 (
-	'label'                   		=> &$GLOBALS['TL_LANG']['tl_module']['l2u_bsize'],
+	'label'                   		=> &$GLOBALS['TL_LANG']['tl_content']['l2u_bsize'],
 	'default'                 		=> '0',
 	'exclude'                 		=> true,
 	'inputType'               		=> 'select',
@@ -72,9 +72,9 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['l2u_bsize'] = array
 	'sql'                     		=> "int(10) unsigned NOT NULL default '0'" 
 );
 
-$GLOBALS['TL_DCA']['tl_module']['fields']['l2u_bbyte'] = array
+$GLOBALS['TL_DCA']['tl_content']['fields']['l2u_bbyte'] = array
 (
-	'label'                   		=> &$GLOBALS['TL_LANG']['tl_module']['l2u_bbyte'],
+	'label'                   		=> &$GLOBALS['TL_LANG']['tl_content']['l2u_bbyte'],
 	'default'                 		=> '0',
 	'exclude'                 		=> true,
 	'inputType'               		=> 'select',
@@ -85,9 +85,9 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['l2u_bbyte'] = array
 );
 
 
-$GLOBALS['TL_DCA']['tl_module']['fields']['l2u_btext'] = array
+$GLOBALS['TL_DCA']['tl_content']['fields']['l2u_btext'] = array
 (
-	'label'                   		=> &$GLOBALS['TL_LANG']['tl_module']['l2u_btext'],
+	'label'                   		=> &$GLOBALS['TL_LANG']['tl_content']['l2u_btext'],
 	'default'                 		=> '1',
 	'exclude'                 		=> true,
 	'inputType'               		=> 'select',
@@ -97,9 +97,9 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['l2u_btext'] = array
 	'sql'                     		=> "int(10) unsigned NOT NULL default '0'" 
 );
 
-$GLOBALS['TL_DCA']['tl_module']['fields']['l2u_backlink'] = array
+$GLOBALS['TL_DCA']['tl_content']['fields']['l2u_backlink'] = array
 (
-	'label'                   		=> &$GLOBALS['TL_LANG']['tl_module']['l2u_backlink'],
+	'label'                   		=> &$GLOBALS['TL_LANG']['tl_content']['l2u_backlink'],
 	'default'                 		=> '1',
 	'exclude'                 		=> true,
 	'inputType'               		=> 'select',
@@ -108,9 +108,9 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['l2u_backlink'] = array
 	'eval'                    		=> array('tl_class'=>'w50'),
 	'sql'                     		=> "int(10) unsigned NOT NULL default '0'" 
 );
-$GLOBALS['TL_DCA']['tl_module']['fields']['l2u_zeroClip'] = array
+$GLOBALS['TL_DCA']['tl_content']['fields']['l2u_zeroClip'] = array
 (
-	'label'                   		=> &$GLOBALS['TL_LANG']['tl_module']['l2u_zeroclip'],
+	'label'                   		=> &$GLOBALS['TL_LANG']['tl_content']['l2u_zeroclip'],
 	'default'                 		=> '1',
 	'exclude'                 		=> true,
 	'inputType'               		=> 'select',
